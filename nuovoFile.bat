@@ -1,3 +1,12 @@
+set %TIME%
+PAUSE
+dir /B > %TIME%.TXT
+PAUSE
+
+
+
+goto fuori
+
 set %Variabile%=%1%
 
 :inizio
@@ -11,3 +20,6 @@ EXIT
 :passa
 set %Variabile%=set %Variabile%A
 goto inizio
+
+
+:fuori
